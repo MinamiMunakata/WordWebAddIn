@@ -1,0 +1,2 @@
+C:\Users\mmunakata\source\repos\WordWebAddIn1\WordWebAddIn1\obj\Debug\WordWebAddIn1.csprojAssemblyReference.cache
+C:\Users\mmunakata\source\repos\WordWebAddIn1\WordWebAddIn1\obj\Debug\WordWebAddIn1.csproj.CoreCompileInputs.cache

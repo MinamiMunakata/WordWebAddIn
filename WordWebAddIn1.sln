@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordWebAddIn1", "WordWebAddIn1\WordWebAddIn1.csproj", "{81E587A9-1A69-49D0-961B-1E63E0756634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordWebAddIn1Web", "WordWebAddIn1Web\WordWebAddIn1Web.csproj", "{C9B1D08C-E853-4E95-8972-9922410CAF6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81E587A9-1A69-49D0-961B-1E63E0756634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E587A9-1A69-49D0-961B-1E63E0756634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E587A9-1A69-49D0-961B-1E63E0756634}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{81E587A9-1A69-49D0-961B-1E63E0756634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E587A9-1A69-49D0-961B-1E63E0756634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81E587A9-1A69-49D0-961B-1E63E0756634}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C9B1D08C-E853-4E95-8972-9922410CAF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B1D08C-E853-4E95-8972-9922410CAF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B1D08C-E853-4E95-8972-9922410CAF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B1D08C-E853-4E95-8972-9922410CAF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D9540A4-26E2-4CD3-A613-1446CEEE176F}
+	EndGlobalSection
+EndGlobal

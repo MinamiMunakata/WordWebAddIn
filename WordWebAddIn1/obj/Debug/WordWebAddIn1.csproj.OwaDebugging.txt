@@ -1,0 +1,7 @@
+False
+802ea496-cff4-45a5-aa81-6ebafadafb3af415cda0-b4ba-4f78-9f58-e254f385ea64
+{7c74eb78-4656-4b87-9d8c-31bfc64531e4}{eb3ec899-11dc-4aab-8d60-b72e25467bb6}
+{2b147b2e-78ea-49c5-b413-502acbe33929}
+1.0.0.0
+WordWebAddIn1
+_layouts/15/
