@@ -11,6 +11,7 @@
                 $('#emerson').click(insertEmersonQuoteAtSelection);
                 $('#chekhov').click(insertChekhovQuoteAtTheBeginning);
                 $('#proverb').click(insertChineseProverbAtTheEnd);
+                $('#hello-world').click(insertHelloWorld);
                 $('#supportedVersion').html('This code is using Word 2016 or later.');
             }
             else {
@@ -19,6 +20,19 @@
             }
         });
     });
+
+    function insertHelloWorld() {
+        Word.run(function (context) {
+            var thisDocument = context.document;
+            var range = thisDocument.getSelection();
+            range.insertText('"Hello World!!"\n', Word.InsertLocation.replace);
+            return context.sync().then(function () {
+                console.log("Say \"Hello!\"");
+            });
+        }).catch(function (error) {
+            console.log('Error: ' + JSON.stringify(error));
+        });
+    }
 
     function insertEmersonQuoteAtSelection() {
         Word.run(function (context) {
