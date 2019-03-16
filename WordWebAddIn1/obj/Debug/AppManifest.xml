@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
      Name="WordWebAddIn1"
-     ProductID="{e9bf3c2d-4284-466d-a030-73646d1d682a}"
+     ProductID="{c1d6c0ce-8751-44ed-9d8e-0f8a830c2af0}"
      Version="1.0.0.0"
      SharePointMinVersion="15.0.0.0"
 >

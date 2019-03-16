@@ -1,1 +1,1 @@
-http://localhost/WordWebAddIn1Web
+http://localhost/addintest.com
