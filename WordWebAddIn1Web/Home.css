@@ -54,3 +54,8 @@ body {
     bottom: 0;
     overflow: auto;
 }
+
+#supportedVersion {
+    position: absolute;
+    bottom: 0;
+}

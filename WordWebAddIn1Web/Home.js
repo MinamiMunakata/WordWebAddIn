@@ -1,7 +1,6 @@
 ﻿'use strict';
 
 (function () {
-
     Office.onReady(function () {
         // Office is ready
         $(document).ready(function () {
@@ -10,7 +9,7 @@
             if (Office.context.requirements.isSetSupported('WordApi', 1.1)) {
                 // Do something that is only available via the new APIs
                 $('#emerson').click(insertEmersonQuoteAtSelection);
-                $('#checkhov').click(insertChekhovQuoteAtTheBeginning);
+                $('#chekhov').click(insertChekhovQuoteAtTheBeginning);
                 $('#proverb').click(insertChineseProverbAtTheEnd);
                 $('#supportedVersion').html('This code is using Word 2016 or later.');
             }
@@ -50,7 +49,6 @@
 
     function insertChekhovQuoteAtTheBeginning() {
         Word.run(function (context) {
-
             // Create a proxy object for the document body.
             var body = context.document.body;
 
